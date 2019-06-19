@@ -1,12 +1,135 @@
 	
+		
 		#container{
 			position: relative;
+		}
+		#div{
+			padding-top: 32px;
 		}
 section{
 	width: 30%;
 	
 	position: relative;
 	float: left;
+	border: 2px solid black;
+	background-color: gray;
+	margin:  15px;
+	padding-left: 10px;
+
+	clear: right;
+
+
+	
+}
+h2{
+	
+	
+height: 30px;
+	float: right;
+	width: 20px;
+margin: 0px;
+border: 2px solid black;
+clear: both;
+position: relative;
+}
+
+#h2{
+	background-color: #B52E2A;
+width: 30%;
+padding: 0px;
+position: relative;
+clear: left;
+}
+#h3{
+
+	background-color: #DEB230;
+	width: 30%;
+	
+	position: relative;
+	
+	}
+#h1{
+
+	background-color: #ffc0cb;
+	width: 30%;
+	
+	position: relative;
+	
+	
+
+}
+		@media (min-width: 1200px){
+	#h1{
+		width: 30%;
+		height: 30%;
+		position: relative;
+		
+		
+	}
+	#h2{
+		width: 30%;
+		height: 30%;
+		position: relative;
+		
+		
+	}
+	#h3{
+		width: 30%;
+		height: 30%;
+		position: relative;
+		
+		
+	}
+}
+	@media  (min-width: 200px) and (max-width: 699px){
+	#h1{
+		
+		position: relative;
+	width: 100%;
+		height: 100%;
+		
+	}
+	#h2{
+		
+		position: relative;
+		width: 100%;
+		height: 100%;
+		
+	}
+	#h3{
+		
+		position: relative;
+		width: 100%;
+		height: 100%;
+		
+		
+		
+	}
+}
+	
+ 	@media (min-width: 700px) and (max-width: 1199px){
+	#h1{
+		width: 60%;
+		height: 60%;
+		position: relative;
+		
+		
+	}
+	#h2{
+		width: 60%;
+		height: 60%;
+		position: relative;
+		
+		
+	}
+	#h3{
+		width: 60%;
+		height: 60%;
+		position: relative;
+		
+		
+	}
+}
 	border: 2px solid black;
 	background-color: gray;
 	margin:  15px;
