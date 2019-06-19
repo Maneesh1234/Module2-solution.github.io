@@ -1,4 +1,3 @@
-	
 		
 		#container{
 			position: relative;
@@ -130,65 +129,3 @@ clear: left;
 		
 	}
 }
-	border: 2px solid black;
-	background-color: gray;
-	margin:  15px;
-	padding-left: 10px;
-
-
-	
-}
-h2{
-	width: 20px;
-	height: 30px;
-	float: right;
-	
-margin: 0px;
-clear: both;
-position: relative;
-}
-
-#h2{
-	background-color: #B52E2A;
-width: 30%;
-padding: 0px;
-position: relative;
-}
-#h3{
-
-	background-color: #DEB23A;
-	width: 30%;
-	position: relative;
-	
-	}
-#h1{
-
-	background-color: #BEB23A;
-	width: 30%;
-	position: relative;
-	
-	
-
-}
-		@media (min-width: 1200){
-	#h1{
-		width: 29%;
-		position: relative;
-		
-		
-	}
-	#h2{
-		width: 29%;
-		position: relative;
-		
-		
-	}
-	#h3{
-		width: 29%;
-		position: relative;
-		
-		
-	}
-}
-	
- 
